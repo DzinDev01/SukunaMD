@@ -49,7 +49,8 @@ async function startRajaBot() {
 	} 
 	
 	const raja = WAConnection({ 
-	  logger: level,
+	  version: [2, 3000, 1017531287], 
+		logger: level,
 		getMessage,
 		syncFullHistory: true,
 		maxMsgRetryCount: 15,
